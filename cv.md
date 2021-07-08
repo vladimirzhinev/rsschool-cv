@@ -12,7 +12,7 @@ Phone number: +375293454294
 
 Email: vladimirzhinev@gmail.com
 
-
+[Link to github](https://github.com/vladimirzhinev)
 
 ---
 
@@ -35,6 +35,15 @@ I am studying html, css, JavaScript, Git this moment.
 
 ### 5. Code examples:
 
+`function multiply($a, $b) { return $a * $b; }`<br>
+
+---
+
+```
+let age=prompt('Кукушечка, сколько мне жить осталось?', ku);
+
+alert(`Тебе осталось ${age} лет!`);
+```
 
 
 ### 6. Work experience:
