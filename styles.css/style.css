@@ -1,0 +1,23 @@
+header {
+    border: 1px solid #8c8c8c;
+    border-radius: 1%;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+main {
+    border: 1px solid #8c8c8c;
+    border-radius: 1%;
+}
+footer {
+    border: 1px solid #8c8c8c;
+    border-radius: 1%;
+}
+
+img {
+    border-radius: 3%;
+    width: 10%;
+    height: 10%;
+}
+
