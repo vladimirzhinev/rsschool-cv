@@ -1,0 +1,77 @@
+body, html {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+background: #f4f4f4;
+    width: 70%;
+}
+
+
+
+
+
+main {
+    border: 1px solid #8c8c8c;
+    border-radius: 1%;
+    margin: 5px auto;
+    padding-bottom: 16px;
+    }
+
+.headercontainer {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+border: 1px solid #8c8c8c;
+border-radius: 1%;
+
+}
+
+footer {
+    border: 1px solid #8c8c8c;
+    border-radius: 1%;
+}
+
+
+
+
+h1 {
+    font-size: 2em;
+    font-weight: 800;
+    color: #8c8c8c;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 700;
+    color: #8c8c8c;
+}
+
+.codeback {
+    background: #f6f6f6;
+}
+
+.copyinfooter {
+
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.footer-container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.copy {
+    font-weight: 400;
+    font-size: 70%;
+    background: #f6f6f6;
+}
+
+
+.icon {
+    width: 192px;
+    height: 56px;
+}
+
+
