@@ -1,15 +1,18 @@
 body, html {
     font-family: 'Times New Roman', Times, serif;
     margin: 0 auto;
-    background: #f4f4f4;
+    background: #ffffff;
     width: 70%;
 }
 
+section {
+    padding: 10px;
+}
 main {
     border: 1px solid #8c8c8c;
-    border-radius: 1%;
     margin: 5px auto;
     padding-bottom: 16px;
+    background:rgba(231, 241, 239, 0.863)
     }
 
 .headercontainer {
@@ -17,14 +20,14 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 border: 1px solid #8c8c8c;
-border-radius: 1%;
-
+padding: 10px;
+background: rgba(222, 236, 233, 0.863);
 }
 
 footer {
-    border: 1px solid #8c8c8c;
-    border-radius: 1%;
-}
+    border: 1px solid #d8bfbf;
+
+    }
 
 
 h1 {
@@ -54,6 +57,8 @@ h2 {
 display: flex;
 justify-content: space-around;
 align-items: center;
+padding: 10px;
+background:rgba(222, 236, 233, 0.863);
 }
 
 .copy {
