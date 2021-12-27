@@ -1,58 +1,55 @@
 body, html {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0 auto;
-    background: #f4f4f4;
-    width: 70%;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0 auto;
+   background: #ffffff;
+   width: 90%;
 }
 
-
-
-
-
+section {
+   padding: 10px;
+}
 main {
-    border: 1px solid #8c8c8c;
-    border-radius: 1%;
-    margin: 5px auto;
-    padding-bottom: 16px;
-    }
+   border: 1px solid #8c8c8c;
+   margin: 5px auto;
+   padding-bottom: 16px;
+   background:rgba(231, 241, 239, 0.863)
+   }
 
 .headercontainer {
 display: flex;
-justify-content: flex-start;
+justify-content: center;
 align-items: center;
 border: 1px solid #8c8c8c;
-border-radius: 1%;
-
+padding: 10px;
+background: rgba(222, 236, 233, 0.863);
 }
 
 footer {
-    border: 1px solid #8c8c8c;
-    border-radius: 1%;
-}
+   border: 1px solid #d8bfbf;
 
-
-
+   }
 
 h1 {
-    font-size: 2em;
-    font-weight: 800;
-    color: #8c8c8c;
+   font-size: 2em;
+   font-weight: 800;
+   color: #8c8c8c;
+
 }
 
 h2 {
-    font-size: 1em;
-    font-weight: 700;
-    color: #8c8c8c;
+   font-size: 1em;
+   font-weight: 700;
+   color: #8c8c8c;
 }
 
 .codeback {
-    background: #f6f6f6;
+   background: #f6f6f6;
 }
 
 .copyinfooter {
 
-    vertical-align: middle;
-    text-align: center;
+   vertical-align: middle;
+   text-align: center;
 }
 
 
@@ -60,18 +57,25 @@ h2 {
 display: flex;
 justify-content: space-around;
 align-items: center;
+padding: 10px;
+background:rgba(222, 236, 233, 0.863);
 }
 
 .copy {
-    font-weight: 400;
-    font-size: 70%;
-    background: #f6f6f6;
+   font-weight: 400;
+   font-size: 70%;
+   background: #f6f6f6;
 }
 
 
 .icon {
-    width: 192px;
-    height: 56px;
-}
+   width: 192px;
+   height: 56px;
+   position: relative;
+   transition: 1s;
+   }
 
-
+   .icon:hover{
+       z-index: 10;
+       transform: scale(1.1);
+   }
