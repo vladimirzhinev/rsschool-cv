@@ -2,7 +2,12 @@ body, html {
    font-family: 'Times New Roman', Times, serif;
    margin: 0 auto;
    background: #ffffff;
-   width: 90%;
+   width: 80%;
+}
+
+a, a:hover {
+   text-decoration: none;
+   color: inherit;
 }
 
 section {
